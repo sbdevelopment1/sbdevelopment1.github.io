@@ -1,0 +1,26 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "ZR38Y6GJCA.tr.com.sekerbilisim.mbank.dev",
+                    "ZR38Y6GJCA.tr.com.sekerbilisim.mbank"
+                ],
+                "components": [
+                    {
+                        "/": "/login/*",
+                        "comment": "login"
+                    },
+                    {
+                        "/": "/login/dashboard/kartlar",
+                        "comment": "kartlar"
+                    },
+                    {
+                        "/": "/login/dashboard/hesaplar",
+                        "comment": "hesaplar"
+                    }
+                ]
+            }
+        ]
+    }
+}
