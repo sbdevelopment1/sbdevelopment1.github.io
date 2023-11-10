@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "tr.com.sekerbilisim.mbank.dev",
+            "sha256_cert_fingerprints": [
+                "29:02:13:51:C1:45:59:A1:28:02:9E:B3:AD:5E:A4:69:50:14:A8:FC:63:71:8A:81:32:0D:63:B4:EB:3D:2A:F7"
+            ]
+        }
+    }
+]
