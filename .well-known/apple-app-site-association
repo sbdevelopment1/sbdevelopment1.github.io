@@ -8,16 +8,40 @@
                 ],
                 "components": [
                     {
-                        "/": "/login/*",
-                        "comment": "login"
-                    },
-                    {
                         "/": "/login/dashboard/kartlar",
                         "comment": "kartlar"
                     },
                     {
                         "/": "/login/dashboard/hesaplar",
                         "comment": "hesaplar"
+                    },
+                    {
+                        "/": "/login/hhs/hesap-bilgi-rizasi/session",
+                        "?": {
+                            "id": "?*"
+                        },
+                        "comment": "openbanking hhs"
+                    },
+                    {
+                        "/": "/login/ohs/odeme-emri-rizasi/session",
+                        "?": {
+                            "id": "?*"
+                        },
+                        "comment": "openbanking ohs"
+                    },
+                    {
+                        "/": "/login/kurumsal/hhs/hesap-bilgi-rizasi/session",
+                        "?": {
+                            "id": "?*"
+                        },
+                        "comment": "openbanking kurumsal hhs"
+                    },
+                    {
+                        "/": "/login/kurumsal/ohs/odeme-emri-rizasi/session",
+                        "?": {
+                            "id": "?*"
+                        },
+                        "comment": "openbanking kurumsal ohs"
                     }
                 ]
             }
