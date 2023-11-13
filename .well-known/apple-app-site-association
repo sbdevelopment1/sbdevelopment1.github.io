@@ -8,6 +8,10 @@
                 ],
                 "components": [
                     {
+                        "/": "/login/*",
+                        "comment": "login"
+                    },
+                    {
                         "/": "/login/dashboard/kartlar",
                         "comment": "kartlar"
                     },
