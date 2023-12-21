@@ -1,10 +1,26 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "tr.com.sekerbilisim.mbank.dev",
-    "sha256_cert_fingerprints":
-    [ "29:02:13:51:C1:45:59:A1:28:02:9E:B3:AD:5E:A4:69:50:14:A8:FC:63:71:8A:81:32:0D:63:B4:EB:3D:2A:F7", 
-    "C1:C7:E0:79:F1:65:05:B4:03:71:CB:3F:85:0F:FD:11:D1:BF:F5:8B:29:57:5B:97:FC:FC:CB:43:88:71:E4:E0" ]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "tr.com.sekerbilisim.mbank.dev",
+      "sha256_cert_fingerprints": [
+        "29:02:13:51:C1:45:59:A1:28:02:9E:B3:AD:5E:A4:69:50:14:A8:FC:63:71:8A:81:32:0D:63:B4:EB:3D:2A:F7"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "tr.com.sekerbilisim.mbank",
+      "sha256_cert_fingerprints": [
+        "C1:C7:E0:79:F1:65:05:B4:03:71:CB:3F:85:0F:FD:11:D1:BF:F5:8B:29:57:5B:97:FC:FC:CB:43:88:71:E4:E0"
+      ]
+    }
   }
-}]
+]
